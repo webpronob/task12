@@ -1,11 +1,48 @@
-.App {
-  text-align: center;
+.app {
+  font-family: 'IBM Plex Sans', sans-serif;
+  position: relative;
 }
+/* .modal-lg {
+  width: 900px;
+  margin: auto;
+} */
+@media (min-width: 992px){
+.modal-lg, .modal-xl {
+    max-width: 840px;
+    height: 500px;
+}
+}
+.bg-section{
+  background: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+padding: 45px;
+width: 54px;
+height: 54px;
+text-align: center;
+border-radius: 50px;
 
+}
+.fixed-icon{
+  margin-top: -27px;
+    margin-left: -12px;
+}
+.fixed-section{
+  position: fixed;
+  top: 550px;
+  z-index: 5;
+  right: 23px;
+  display: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+@media (max-width: 820px) {
+  .fixed-section{
+    display: block;
+  }
+  }
+  
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

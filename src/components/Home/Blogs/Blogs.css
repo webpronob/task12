@@ -1,0 +1,229 @@
+.category-item{
+    font-weight: 400;
+    color: #8A8A8A;
+    font-size: 20px;
+}
+.category-item-active{
+position: relative;
+font-size: 22px;
+
+}
+.filter-text{
+  font-weight: 500;
+}
+.share-icon span{
+  font-size: 12px;
+  font-weight: 500;
+}
+.category-item-responsive{
+  font-weight: 700;
+}
+ .res-btn{
+    background: #F1F3F5;
+    border-radius: 4px;
+} 
+.btn-post{
+  background: #EDEEF0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.btn-group{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #2F6CE5;
+  color: white;
+}
+.category-item-active:before{
+  content: "";
+  position: absolute;
+  width: 133px;
+  right: 0;
+  top: 60px;
+  background-color: #151616;
+  height: 10%;
+}
+.leave-btn{
+    border: 0.8px solid #989899;
+    
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+}
+.sidebarText{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.follow-section img{
+    width: 60px;
+}
+.follow-section h5{
+   font-size: 18px;
+   font-weight: 500;
+}
+.follow-section .follow-btn{
+    background: #EDEEF0;
+border-radius: 14px;
+font-size: 14px;
+font-weight: 400;
+}
+.active-btn{
+    background: #000000;
+border-radius: 14px;
+font-size: 14px;
+font-weight: 400;
+color: white;
+
+}
+.active-btn:hover{
+color: white;
+}
+.container-box{
+  max-width: 1144px;
+  margin: 0 auto;
+}
+.share-icon{
+    background: #EDEEF0;
+    padding: 9px;
+}
+
+ .dot-icon{
+    background: #BFBFC0;
+    padding: 10px;
+    z-index: -2;
+} 
+summary{
+    position: absolute;
+    left: 14px;
+    top: 7px;
+}
+
+/* popover */
+details[data-popover] {
+    display: inline;
+    /* position: relative; */
+  }
+  details[data-popover] > summary:focus {
+    outline: none;
+  }
+  details[data-popover] > summary::-webkit-details-marker {
+    display: none;
+  }
+  details[data-popover] > summary {
+    list-style: none;
+    text-decoration: underline dotted teal;
+  }
+  details[data-popover] > summary + * {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 350%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16), 0px 0px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    /* border-radius: 5%; */
+    padding: 10px;
+    /* background: white; */
+  }
+  details[data-popover] > * + * {
+    /* hide detail elements that would ruin the popover */
+    display: none;
+  }
+  details[data-popover="up"] > summary + * {
+    bottom: calc(0.5rem + 100%);
+    right: 50%;
+    transform: translateX(50%);
+  }
+  details[data-popover="down"] > summary + * {
+    top: calc(0.5rem + 100%);
+    right: 153%;
+    transform: translateX(50%);;
+  }
+  details[data-popover="left"] > summary + * {
+    right: calc(1rem + 100%);
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+  details[data-popover="right"] > summary + * {
+    left: calc(1rem + 100%);
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+  
+  /* wrapper setup */
+  .wrapper {
+    /* width: 100%; */
+    /* padding: 250px; */
+    position: relative;
+    width: 57px;
+  }
+  .d-btn{
+    color: #E56135;
+    background: #FFFFFF;
+border: 0.7px solid #A9AEB8;
+border-radius: 8px;
+font-weight: 600;
+  }
+  .t-btn{
+    color: #02B875;
+    background: #FFFFFF;
+border: 0.7px solid #A9AEB8;
+border-radius: 8px;
+font-weight: 600;
+  }
+
+  @media (max-width: 800px) {
+    .all-category{
+        display: none !important;
+    }
+    .row{
+      --bs-gutter-x: 0;
+    }
+    hr{
+        display: none;
+    }
+    .res-section{
+        display: flex !important;
+        padding-bottom: 10px;
+    }
+    .hero-section{
+        padding-left: 20px;
+    padding-top: 80px;
+    padding-right: 20px;
+    }
+    .location-text{
+      font-size: 14px;
+    }
+    .res-card{
+        margin-right: 0px !important;
+        /* padding-left: 5px;
+        padding-right: 5px; */
+    }
+    .card-title{
+      font-size: 16px;
+    }
+    .about-text{
+      font-size: 10px;
+    }
+    .res-view{
+      font-size: 12px;
+    }
+    .profile-text{
+      font-size: 11px;
+    }
+    .card-text{
+      font-size: 15px;
+    }
+    .res-col{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .res-body{
+        padding-right: 35px !important;
+    padding-left: 35px !important;
+    }
+    .res-blogs{
+        --bs-gutter-x: 0 !important;
+    }
+    }

@@ -1,0 +1,168 @@
+.form-container{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #F7F8FA;
+    border: 1px solid #D9D9DB;
+}
+.google-btn{
+    /* background-color: #dd4b39; */
+}
+.facebook-btn{
+    background-color: #444850;
+}
+.facebook-btn :hover{
+    background: white;
+}
+.google-btn :hover{
+    background: white;
+}
+.inpText{
+    color: #2F6CE5;
+}
+.sign-message{
+    font-size: 14px;
+    font-weight: 600;
+    color: #3D3D3D;
+}
+.bg-header{
+    background:  #EFFFF4;;
+}
+.bg-header p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.submit-btn{
+    background: #2F6CE5;
+border-radius: 20px;
+padding-top: 10px;
+    padding-bottom: 10px;
+}
+.google-btn{
+    background: white;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.google-btn i{
+    color: #2F6CE5;
+}
+.google-img{
+    width: 36px;
+    margin-right: 7px;
+}
+.loginImg{
+    width: 90%;
+}
+.res-signup{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .loginImg{
+        display: none;
+    }
+    .res-signup{
+        display: inline-block;
+        margin-left: 44px;
+        font-size: 13px;
+    }
+    .res-modal{
+        margin: 0;
+        width: 100%;
+    }
+    .nessary-part-login{
+        padding-bottom: 0 !important;
+    }
+    .agree-text{
+        text-align: center;
+    }
+    .sign-message{
+        display: none;
+    }
+    .modal-title{
+        display: none;
+    }
+    .bg-header{
+        background-color: white;
+        padding: 3;
+    }
+    .modal-content{
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+        border-radius: 8px 8px 0px 0px;
+        top:152px;
+        padding:3px
+
+    }
+    .res-submit-btn{
+        width: 50% !important;
+        background: #2F6CE5;
+border-radius: 20px;
+font-size: 14px;
+    }
+    }
+/* <section class="login-block">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <form class="md-float-material form-material" action="#" method="POST">
+                    <div class="auth-box card">
+                        <div class="card-block">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3 class="text-center heading" >Create your BBBootstrap account. It&rsquo;s free and only takes a minute.</h3>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group form-primary">
+                             
+                                 <input type="text" class="form-control" name="first_name" value="" placeholder="Display name" id="first_name"> 
+                            </div>
+
+                            <div class="form-group form-primary">
+                                <input type="text" class="form-control" name="email" value="" placeholder="Email" id="email">
+                               
+                            </div>
+
+                            <div class="form-group form-primary">
+                               <input type="password" class="form-control" name="password" placeholder="Password" value="" id="password">
+                              
+                            </div>
+
+                            <div class="form-group form-primary">
+                                <input type="password" class="form-control" name="password_confirm" placeholder="Repeat password" value="" id="password_confirm">
+                                
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <input type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="submit" value="Signup Now">
+                                   <!--  <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20"><i class="fa fa-lock"></i> Signup Now </button> -->
+                                </div>
+                            </div>
+
+                            <div class="or-container"><div class="line-separator"></div> <div class="or-label">or</div><div class="line-separator"></div></div>
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <a class="btn btn-lg btn-google btn-block text-uppercase btn-outline" href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signup Using Google</a>
+
+                                </div>
+                            </div>
+                            <br>
+
+                            <p class="text-inverse text-center">Already have an account? <a href="<?= base_url() ?>auth/login" data-abc="true">Login</a></p>
+                        </div>
+                    </div>
+                </form> */
+            /* </div>
+        </div>
+    </div>
+</section> */
